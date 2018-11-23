@@ -1,19 +1,14 @@
 import sys
-sys.path.append('../../python/Lib/site-packages')
+sys.path.append('../../utils/python/Lib/site-packages')
+sys.path.append('./')
 
 import cv2
-import scipy.misc
 import numpy as np
-import os
-import os.path
 import cv2
+import os
+import pytesseract
 import glob
-import imutils
 from PIL import ImageTk, Image
 
 from tkinter import filedialog
 from tkinter import *
-
-import filters
-import funcs
-from ui import Application
